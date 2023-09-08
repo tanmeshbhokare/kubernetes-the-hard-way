@@ -315,12 +315,12 @@ curl  https://${LOADBALANCER}:6443/version -k
 ```
 {
   "major": "1",
-  "minor": "24",
+  "minor": "28",
   "gitVersion": "v1.28.1",
-  "gitCommit": "aef86a93758dc3cb2c658dd9657ab4ad4afc21cb",
+  "gitCommit": "8dc49c4b984b897d423aab4971090e1879eb4f23",
   "gitTreeState": "clean",
-  "buildDate": "2022-07-13T14:23:26Z",
-  "goVersion": "go1.18.3",
+  "buildDate": "2023-08-24T11:16:30Z",
+  "goVersion": "go1.20.7",
   "compiler": "gc",
   "platform": "linux/amd64"
 }
