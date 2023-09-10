@@ -16,9 +16,9 @@ The versions chosen here align with those that are installed by the current `kub
 
 ```bash
 {
-  CONTAINERD_VERSION=1.5.9
-  CNI_VERSION=0.8.6
-  RUNC_VERSION=1.1.1
+  CONTAINERD_VERSION=1.7.5
+  CNI_VERSION=1.3.0
+  RUNC_VERSION=1.1.9
 
   wget -q --show-progress --https-only --timestamping \
     https://github.com/containerd/containerd/releases/download/v${CONTAINERD_VERSION}/containerd-${CONTAINERD_VERSION}-linux-amd64.tar.gz \
